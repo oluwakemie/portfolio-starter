@@ -24,11 +24,13 @@ const Services = () => {
           laborum dignissimos, <br /> ducimus facere esse cupiditate quos
           deleniti.
         </spane>{" "}
-        <button className="button s-button">Download CV</button>
+        <a href={Resume} download>
+          <button className="button s-button">Download CV</button>
+        </a>
         <div className="blur s-blurl" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right side */}
-      <div className="cards"> 
+      <div className="cards">
         <motion.div
           initial={{ left: "25rem" }}
           whileInView={{ left: "14rem" }}
@@ -51,7 +53,9 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Developer"}
-            detail={"Html, css, Javascript, React Js Figma, Sketch, Photoshop, Adobe,Adobe xd"}
+            detail={
+              "Html, css, Javascript, React Js Figma, Sketch, Photoshop, Adobe,Adobe xd"
+            }
           />
         </motion.div>
         {/* third card */}
