@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './Contact.css'
-import emailjs, { send } from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 import { useRef } from "react";
 import { themeContext } from "../../Context";
 import { useContext } from "react";

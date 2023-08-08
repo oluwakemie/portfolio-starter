@@ -85,7 +85,7 @@
 .w-right{
   display: flex;
   align-items: flex-start;
-  justify-content: start;
+  justify-content: left;
   transform: scale(0.7);
 }
 .w-mainCircle{
